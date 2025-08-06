@@ -1,0 +1,63 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 18188 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.32%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 1000 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 18188
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/923643692/miniconda3/bin/raxmlHPC-PTHREADS-AVX2 -f a -T 10 -m GTRGAMMA -n chenopodium_20250304b-tetraploid.indivmiss60.locimiss50.thin10.maf0.01.LD0.8-1000.min4.raxml.test -w /home/923643692/cheno_pop_tests/06_phylos/analysis-raxml -s /home/923643692/cheno_pop_tests/06_phylos/chenopodium_20250304b-tetraploid.indivmiss60.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy -p 54321 -N 1000 -x 12345 
+
+
+
+Time for BS model parameter optimization 1.591452
+Bootstrap[0]: Time 11.393154 seconds, bootstrap likelihood -206260.102927, best rearrangement setting 13
+Bootstrap[1]: Time 8.965445 seconds, bootstrap likelihood -205135.894963, best rearrangement setting 13
+Bootstrap[2]: Time 8.257884 seconds, bootstrap likelihood -204714.031447, best rearrangement setting 12
+Bootstrap[3]: Time 8.576735 seconds, bootstrap likelihood -202807.728567, best rearrangement setting 15
+Bootstrap[4]: Time 8.571281 seconds, bootstrap likelihood -201714.964978, best rearrangement setting 10
+Bootstrap[5]: Time 8.280416 seconds, bootstrap likelihood -203205.784518, best rearrangement setting 10
+Bootstrap[6]: Time 9.748398 seconds, bootstrap likelihood -204364.512737, best rearrangement setting 6
+Bootstrap[7]: Time 8.407622 seconds, bootstrap likelihood -205961.116687, best rearrangement setting 14
+Bootstrap[8]: Time 8.628867 seconds, bootstrap likelihood -205906.761263, best rearrangement setting 5

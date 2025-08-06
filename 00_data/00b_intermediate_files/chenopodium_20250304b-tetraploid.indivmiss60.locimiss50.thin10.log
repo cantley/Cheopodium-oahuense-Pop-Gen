@@ -1,0 +1,15 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /home/923643692/cheno_pop_tests/00_data/00b_intermediate_files/chenopodium_20250304b-tetraploid.indivmiss60.locimiss50.recode.vcf
+	--recode-INFO-all
+	--thin 10
+	--out /home/923643692/cheno_pop_tests/00_data/00b_intermediate_files/chenopodium_20250304b-tetraploid.indivmiss60.locimiss50.thin10
+	--recode
+
+After filtering, kept 105 out of 105 Individuals
+Outputting VCF file...
+After filtering, kept 38899 out of a possible 54391 Sites
+Run Time = 4.00 seconds

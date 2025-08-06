@@ -1,0 +1,328 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    cantley (AVX512, FMA3, 377 GB RAM)
+Command: iqtree2 -s ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy -m MFP --alrt 10000 -B 10000 -T 10 -redo
+Seed:    990625 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug  4 00:15:25 2025
+Kernel:  AVX+FMA - 10 threads (10 CPU cores detected)
+
+Reading alignment file ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 101 sequences with 19088 columns, 18960 distinct patterns
+7773 parsimony-informative, 5288 singleton sites, 6027 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00601869 secs using 587.1% CPU
+   1  CO-AR-1    11.19%    passed     23.81%
+   2  CO-AR-10    9.95%    passed     21.12%
+   3  CO-AR-11   10.60%    passed     29.90%
+   4  CO-AR-12    6.11%    passed     52.33%
+   5  CO-AR-13   10.47%    passed     32.63%
+   6  CO-AR-14    6.88%    passed     69.07%
+   7  CO-AR-15    6.83%    passed     58.61%
+   8  CO-AR-16    6.17%    passed     62.00%
+   9  CO-AR-17   10.10%    passed     47.47%
+  10  CO-AR-18    7.17%    passed     38.47%
+  11  CO-AR-19   10.51%    passed     29.33%
+  12  CO-AR-2    10.83%    passed     19.02%
+  13  CO-AR-20    6.86%    passed     62.10%
+  14  CO-AR-3    11.10%    passed     18.69%
+  15  CO-AR-4    10.72%    passed     70.35%
+  16  CO-AR-5    11.19%    passed     33.50%
+  17  CO-AR-6    10.47%    passed     18.25%
+  18  CO-AR-7    11.13%    passed     27.04%
+  19  CO-AR-8     8.44%    passed     39.98%
+  20  CO-AR-9     5.28%    passed     71.71%
+  21  CO-CH-11   12.83%    passed     26.59%
+  22  CO-CH-12   12.90%    passed     81.53%
+  23  CO-CH-18   36.74%    passed     26.33%
+  24  CO-CH-2     7.56%    passed     77.50%
+  25  CO-CH-21    6.45%    passed     99.26%
+  26  CO-CH-23   17.67%    passed     76.93%
+  27  CO-CH-24   29.98%    passed     76.48%
+  28  CO-CH-29   40.04%    passed     89.61%
+  29  CO-CH-39   10.01%    passed     90.78%
+  30  CO-CH-40    9.92%    passed     89.60%
+  31  CO-CH-45    7.33%    passed     76.71%
+  32  CO-CH-46   12.68%    passed     32.10%
+  33  CO-CH-5     6.65%    passed     98.04%
+  34  CO-CH-6     9.80%    passed     70.06%
+  35  CO-CH-8    11.51%    passed     48.53%
+  36  CO-CH-9    10.39%    passed     54.27%
+  37  CO-IP-1    10.01%    passed     29.67%
+  38  CO-IP-10   11.69%    failed      4.93%
+  39  CO-IP-2    10.04%    passed     39.69%
+  40  CO-IP-3    11.23%    passed     25.78%
+  41  CO-IP-4    11.42%    passed     30.03%
+  42  CO-IP-5    11.42%    passed     18.70%
+  43  CO-IP-6     7.19%    passed     74.04%
+  44  CO-IP-7    10.95%    passed     32.40%
+  45  CO-IP-8     7.20%    passed     91.39%
+  46  CO-IP-9    11.39%    passed     26.93%
+  47  CO-MO-1     6.41%    passed     59.37%
+  48  CO-MO-10   10.88%    passed     62.11%
+  49  CO-MO-11   13.17%    passed     31.83%
+  50  CO-MO-13    4.33%    passed     98.25%
+  51  CO-MO-14    8.31%    passed     40.00%
+  52  CO-MO-15    8.21%    passed     75.36%
+  53  CO-MO-16    9.82%    passed     43.58%
+  54  CO-MO-17   12.04%    passed     29.92%
+  55  CO-MO-18    8.96%    passed     57.68%
+  56  CO-MO-19   11.66%    passed     44.96%
+  57  CO-MO-20    8.82%    passed     64.59%
+  58  CO-MO-3     6.44%    passed     92.26%
+  59  CO-MO-4     4.90%    passed     92.91%
+  60  CO-MO-5    10.46%    passed     45.92%
+  61  CO-MO-6    12.56%    passed     28.13%
+  62  CO-MO-7    12.11%    passed      8.93%
+  63  CO-MO-8     8.57%    passed     85.56%
+  64  CO-MO-9    12.07%    passed     49.32%
+  65  CO-PB-1    12.94%    passed     45.54%
+  66  CO-PB-10   13.45%    passed     57.32%
+  67  CO-PB-11   12.89%    passed     42.90%
+  68  CO-PB-12   12.96%    passed     51.15%
+  69  CO-PB-13   12.59%    passed     42.48%
+  70  CO-PB-14   13.51%    passed     38.81%
+  71  CO-PB-15   13.28%    passed     42.53%
+  72  CO-PB-16   16.97%    passed     81.33%
+  73  CO-PB-17   13.25%    passed     62.85%
+  74  CO-PB-18   12.96%    passed     94.08%
+  75  CO-PB-19   13.18%    passed     91.30%
+  76  CO-PB-2    12.75%    passed     49.90%
+  77  CO-PB-20   13.23%    passed     84.27%
+  78  CO-PB-3    12.16%    passed     59.02%
+  79  CO-PB-4    14.41%    passed     60.34%
+  80  CO-PB-5    13.23%    passed     60.46%
+  81  CO-PB-6    11.60%    passed     99.94%
+  82  CO-PB-7    11.92%    passed     38.88%
+  83  CO-PB-8    12.95%    passed     53.79%
+  84  CO-PB-9    12.54%    passed     53.68%
+  85  CO-PK-10   12.22%    passed     54.48%
+  86  CO-PK-11   22.45%    passed     72.43%
+  87  CO-PK-12   12.08%    passed     57.90%
+  88  CO-PK-13   37.63%    passed     80.93%
+  89  CO-PK-14   12.07%    passed     48.61%
+  90  CO-PK-15   12.29%    passed     52.30%
+  91  CO-PK-16    9.05%    passed     88.56%
+  92  CO-PK-17   11.56%    passed     50.82%
+  93  CO-PK-18    8.21%    passed     83.71%
+  94  CO-PK-19   18.03%    passed     90.59%
+  95  CO-PK-2    33.23%    passed     53.03%
+  96  CO-PK-20   12.05%    passed     52.64%
+  97  CO-PK-3    12.12%    passed     40.38%
+  98  CO-PK-4    17.87%    passed     67.77%
+  99  CO-PK-5    40.74%    passed     22.16%
+ 100  CO-PK-6    11.25%    passed     26.18%
+ 101  CO-PK-9    11.44%    passed     27.01%
+****  TOTAL      12.41%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.210 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -205756.029
+2. Current log-likelihood: -205750.811
+3. Current log-likelihood: -205747.235
+4. Current log-likelihood: -205744.086
+5. Current log-likelihood: -205741.285
+6. Current log-likelihood: -205738.774
+7. Current log-likelihood: -205736.512
+8. Current log-likelihood: -205734.464
+9. Current log-likelihood: -205732.606
+10. Current log-likelihood: -205730.914
+11. Current log-likelihood: -205729.372
+12. Current log-likelihood: -205727.962
+13. Current log-likelihood: -205726.670
+14. Current log-likelihood: -205725.486
+15. Current log-likelihood: -205724.397
+Optimal log-likelihood: -205723.399
+Rate parameters:  A-C: 1.05311  A-G: 2.65416  A-T: 1.78783  C-G: 0.59713  C-T: 2.64366  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.254  G: 0.249  T: 0.248
+Proportion of invariable sites: 0.011
+Gamma shape alpha: 0.968
+Parameters optimization took 15 rounds (6.336 sec)
+Time for fast ML tree search: 15.452 seconds
+
+NOTE: ModelFinder requires 1344 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 19088 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         210669.631   207 421753.263   421757.824   423379.623
+  2  GTR+F+I       208996.599   208 418409.197   418413.803   420043.415
+  3  GTR+F+G4      205710.095   208 411836.189   411840.794   413470.407
+  4  GTR+F+I+G4    205711.571   209 411841.142   411845.792   413483.217
+  5  GTR+F+R2      204705.428   209 409828.857   409833.507   411470.931
+  6  GTR+F+R3      204400.701   211 409223.401   409228.141   410881.189
+  7  GTR+F+R4      204286.507   213 408999.013   409003.843   410672.515
+  8  GTR+F+R5      204286.484   215 409002.968   409007.890   410692.184
+ 14  GTR+F+I+R2    204707.790   210 409835.580   409840.274   411485.511
+ 15  GTR+F+I+R3    204400.719   212 409225.437   409230.222   410891.082
+ 16  GTR+F+I+R4    204286.505   214 409001.009   409005.885   410682.368
+ 17  GTR+F+I+R5    204286.483   216 409004.966   409009.934   410702.038
+ 29  SYM+R4        204278.616   210 408977.232   408981.927   410627.163
+ 38  SYM+I+R4      204278.664   211 408979.327   408984.067   410637.115
+ 51  TVM+F+R4      204286.979   212 408997.958   409002.743   410663.603
+ 60  TVM+F+I+R4    204287.038   213 409000.076   409004.906   410673.577
+ 73  TVMe+R4       204278.618   209 408975.236   408979.885   410617.310
+ 82  TVMe+I+R4     204278.683   210 408977.366   408982.061   410627.297
+ 95  TIM3+F+R4     204745.602   211 409913.204   409917.944   411570.992
+104  TIM3+F+I+R4   204745.650   212 409915.301   409920.085   411580.945
+117  TIM3e+R4      204733.911   208 409883.822   409888.428   411518.040
+126  TIM3e+I+R4    204733.963   209 409885.927   409890.576   411528.001
+139  TIM2+F+R4     204672.222   211 409766.444   409771.184   411424.232
+148  TIM2+F+I+R4   204672.235   212 409768.470   409773.255   411434.115
+161  TIM2e+R4      204640.788   208 409697.576   409702.182   411331.794
+170  TIM2e+I+R4    204640.800   209 409699.600   409704.250   411341.675
+183  TIM+F+R4      205110.647   211 410643.294   410648.034   412301.082
+192  TIM+F+I+R4    205110.663   212 410645.326   410650.111   412310.971
+205  TIMe+R4       205075.534   208 410567.067   410571.673   412201.285
+214  TIMe+I+R4     205075.554   209 410569.108   410573.758   412211.182
+227  TPM3u+F+R4    204746.806   210 409913.612   409918.307   411563.543
+236  TPM3u+F+I+R4  204746.806   211 409915.612   409920.351   411573.400
+249  TPM3+R4       204734.348   207 409882.697   409887.258   411509.057
+258  TPM3+I+R4     204734.347   208 409884.693   409889.299   411518.911
+271  TPM2u+F+R4    204672.442   210 409764.883   409769.578   411414.815
+280  TPM2u+F+I+R4  204672.439   211 409766.879   409771.618   411424.667
+293  TPM2+R4       204640.745   207 409695.489   409700.050   411321.850
+302  TPM2+I+R4     204640.746   208 409697.492   409702.098   411331.710
+315  K3Pu+F+R4     205111.346   210 410642.692   410647.386   412292.623
+324  K3Pu+F+I+R4   205111.342   211 410644.684   410649.424   412302.472
+337  K3P+R4        205075.669   207 410565.338   410569.899   412191.698
+346  K3P+I+R4      205075.675   208 410567.349   410571.954   412201.567
+359  TN+F+R4       205128.537   210 410677.073   410681.768   412327.004
+368  TN+F+I+R4     205128.536   211 410679.071   410683.811   412336.859
+381  TNe+R4        205093.438   207 410600.876   410605.437   412227.237
+390  TNe+I+R4      205093.443   208 410602.885   410607.491   412237.103
+403  HKY+F+R4      205129.277   209 410676.554   410681.204   412318.628
+412  HKY+F+I+R4    205129.281   210 410678.562   410683.256   412328.493
+425  K2P+R4        205093.602   206 410599.204   410603.721   412217.708
+434  K2P+I+R4      205093.606   207 410601.212   410605.773   412227.573
+447  F81+F+R4      208110.624   208 416637.248   416641.853   418271.465
+456  F81+F+I+R4    208110.624   209 416639.248   416643.898   418281.323
+469  JC+R4         208074.816   205 416559.632   416564.105   418170.279
+478  JC+I+R4       208074.819   206 416561.638   416566.155   418180.142
+Akaike Information Criterion:           TVMe+R4
+Corrected Akaike Information Criterion: TVMe+R4
+Bayesian Information Criterion:         TVMe+R4
+Best-fit model: TVMe+R4 chosen according to BIC
+
+All model information printed to ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.model.gz
+CPU time for ModelFinder: 3020.231 seconds (0h:50m:20s)
+Wall-clock time for ModelFinder: 314.413 seconds (0h:5m:14s)
+Generating 10000 samples for ultrafast bootstrap (seed: 990625)...
+
+NOTE: 971 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -208074.816
+2. Current log-likelihood: -204279.738
+3. Current log-likelihood: -204278.563
+Optimal log-likelihood: -204278.543
+Rate parameters:  A-C: 1.06267  A-G: 2.68949  A-T: 1.75069  C-G: 0.61114  C-T: 2.68949  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.807,0.503) (0.157,2.460) (0.035,5.392) (0.001,24.621)
+Parameters optimization took 3 rounds (2.309 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0558891 secs using 986.6% CPU
+Computing ML distances took 0.063431 sec (of wall-clock time) 0.606829 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00265192 secs using 172.8% CPU
+Computing RapidNJ tree took 0.350745 sec (of wall-clock time) 0.327843 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -205598.370
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 26.390 second
+Computing log-likelihood of 98 initial trees ... 8.944 seconds
+Current best score: -204245.304
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -204108.355
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -204106.666
+Iteration 10 / LogL: -204122.313 / Time: 0h:6m:44s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -204103.653
+Iteration 20 / LogL: -204204.064 / Time: 0h:7m:32s
+Finish initializing candidate tree set (20)
+Current best tree score: -204103.653 / CPU time: 130.109
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -204100.997
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -204099.187
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -204091.744
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -204089.195
+Iteration 30 / LogL: -204089.195 / Time: 0h:8m:3s (0h:9m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -204080.597
+Iteration 40 / LogL: -204126.064 / Time: 0h:8m:32s (0h:8m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -204077.337
+Iteration 50 / LogL: -204096.384 / Time: 0h:9m:1s (0h:7m:34s left)
+Log-likelihood cutoff on original alignment: -204365.985
+Iteration 60 / LogL: -204110.358 / Time: 0h:9m:32s (0h:6m:24s left)
+Iteration 70 / LogL: -204079.821 / Time: 0h:10m:0s (0h:5m:23s left)
+Iteration 80 / LogL: -204099.447 / Time: 0h:10m:27s (0h:4m:29s left)
+Iteration 90 / LogL: -204091.008 / Time: 0h:10m:53s (0h:3m:40s left)
+Iteration 100 / LogL: -204120.098 / Time: 0h:11m:18s (0h:2m:56s left)
+Log-likelihood cutoff on original alignment: -204365.985
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -204106.866 / Time: 0h:11m:46s (0h:5m:23s left)
+Iteration 120 / LogL: -204275.004 / Time: 0h:12m:10s (0h:4m:39s left)
+Iteration 130 / LogL: -204077.703 / Time: 0h:12m:38s (0h:4m:0s left)
+Iteration 140 / LogL: -204089.701 / Time: 0h:13m:3s (0h:3m:22s left)
+TREE SEARCH COMPLETED AFTER 149 ITERATIONS / Time: 0h:13m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -204077.337
+2. Current log-likelihood: -204077.272
+3. Current log-likelihood: -204077.229
+Optimal log-likelihood: -204077.218
+Rate parameters:  A-C: 1.06167  A-G: 2.69240  A-T: 1.74888  C-G: 0.61176  C-T: 2.69240  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.807,0.502) (0.156,2.436) (0.036,5.340) (0.001,24.940)
+Parameters optimization took 3 rounds (1.049 sec)
+BEST SCORE FOUND : -204077.218
+
+Testing tree branches by SH-like aLRT with 10000 replicates...
+34.187 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.splits.nex
+Total tree length: 1.912
+
+Total number of iterations: 149
+CPU time used for tree search: 4423.916 sec (1h:13m:43s)
+Wall-clock time used for tree search: 483.821 sec (0h:8m:3s)
+Total CPU time used: 7827.951 sec (2h:10m:27s)
+Total wall-clock time used: 843.521 sec (0h:14m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.splits.nex...
+101 taxa and 458 splits.
+Consensus tree written to ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.contree
+Reading input trees file ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.contree
+Log-likelihood of consensus tree: -204077.202
+
+Analysis results written to: 
+  IQ-TREE report:                ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.iqtree
+  Maximum-likelihood tree:       ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.treefile
+  Likelihood distances:          ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.splits.nex
+  Consensus tree:                ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.contree
+  Screen log file:               ../05_vcf2phylip/chenopodium_20250304b-tetraploid.indivmiss40.locimiss50.thin10.maf0.01.LD0.8-1000.min4.phy.log
+
+Date and Time: Mon Aug  4 00:29:30 2025

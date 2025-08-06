@@ -1,0 +1,11 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/923643692/cheno_pop_tests/00_data/00d_data_subsets/chenopodium_20250304b-tetraploid.indivmiss60.locimiss50.thin10.maf0.01.LD0.8-1000.no-CH-AR.vcf.gz
+
+Using zlib version: 1.2.13
+After filtering, kept 65 out of 65 Individuals
+After filtering, kept 18208 out of a possible 18208 Sites
+Run Time = 1.00 seconds

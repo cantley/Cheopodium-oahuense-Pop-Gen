@@ -1,0 +1,13 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /usr/nfs/923643692/cheno_popgen/ipyrad/tetraploid/chenopodium1_tetraploid/chenopodium_20250304b-tetraploid_outfiles/chenopodium_20250304b-tetraploid.vcf
+	--missing-indv
+	--out /home/923643692/cheno_pop_tests/00_data/00a_imiss/missingind
+
+After filtering, kept 112 out of 112 Individuals
+Outputting Individual Missingness
+After filtering, kept 54661 out of a possible 54661 Sites
+Run Time = 0.00 seconds
